@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+div.outer {
+	width: 70%;
+	min-width: 600px;
+	min-height: 75px;
+	margin: 0 auto;
+	color: white;
+	display: flex;
+}
+
+div.inner {
+	min-width: 10%;
+	min-height: 75px;
+	float: left;
+	border-left: 2px ridge gray;
+}
+
+div.active {
+	background-color: maroon;
+	border-top: 3px solid blue;
+	flex: 34;
+	-webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+
+div.inactive {
+	background-color: navy;
+	border-top: 3px solid orange;
+	flex: 22;
+	-webkit-transition: all 1.0s ease;
+    -moz-transition: all 1.0s ease;
+    -o-transition: all 1.0s ease;
+    transition: all 1.0s ease;
+}
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: capitalize;
+}
+
+p.header {
+	font-family: calibri, sans-serif, Arial, monospace;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 12;
+	margin-bottom: 0;
+}
+
+p.description {
+	font-family: calibri, sans-serif, Arial, monospace;
+	font-size: 11px;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: 5;
+}
